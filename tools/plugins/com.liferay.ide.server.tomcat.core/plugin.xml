@@ -264,52 +264,6 @@
 				version="6.0"
 			>
 			</facet>
-		</supported><supported>
-			<runtime-component
-				id="com.liferay.ide.eclipse.server.tomcat.runtime.component"
-				version="8.5"
-			>
-			</runtime-component>
-			<facet
-				id="jst.web"
-				version="2.3,2.4,2.5,3.0"
-			>
-			</facet>
-			<facet
-				id="jst.utility"
-				version="1.0"
-			>
-			</facet>
-			<facet
-				id="liferay.portlet"
-				version="6.0"
-			>
-			</facet>
-			<facet
-				id="liferay.hook"
-				version="6.0"
-			>
-			</facet>
-			<facet
-				id="liferay.ext"
-				version="6.0"
-			>
-			</facet>
-			<facet
-				id="liferay.layouttpl"
-				version="6.0"
-			>
-			</facet>
-			<facet
-				id="liferay.theme"
-				version="6.0"
-			>
-			</facet>
-			<facet
-				id="liferay.web"
-				version="6.0"
-			>
-			</facet>
 		</supported>
 	</extension>
 	<extension
