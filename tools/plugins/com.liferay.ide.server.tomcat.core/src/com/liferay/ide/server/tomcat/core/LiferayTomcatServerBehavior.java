@@ -162,7 +162,7 @@ public class LiferayTomcatServerBehavior extends TomcatServerBehaviour implement
 
 			Context context = publishedInstance.createContext(-1);
 
-			context.setReloadable("true");
+			context.setReloadable("false");
 
 			String moduleName = module.getName();
 			String requiredSuffix = ProjectUtil.getRequiredSuffix(module.getProject());
