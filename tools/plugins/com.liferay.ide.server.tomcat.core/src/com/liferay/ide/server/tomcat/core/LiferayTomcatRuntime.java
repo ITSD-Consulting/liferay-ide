@@ -263,6 +263,8 @@ public class LiferayTomcatRuntime extends TomcatRuntime implements ILiferayTomca
 			return new LiferayTomcat70Handler();
 		} else if (id.indexOf("runtime.85") > 0) {
 			return new LiferayTomcat85Handler();
+		} else if (id.indexOf("runtime.90") > 0) {
+			return new LiferayTomcat90Handler();
 		}
 
 		return null;

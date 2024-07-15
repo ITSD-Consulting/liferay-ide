@@ -213,6 +213,8 @@ public class LiferayTomcatServer
 				configuration = new LiferayTomcat70Configuration(folder);
 			} else if(id.endsWith("85") || id.endsWith("8562")) {
 				configuration = new LiferayTomcat85Configuration(folder);
+			} else if(id.endsWith("90") || id.endsWith("9062")) {
+				configuration = new LiferayTomcat90Configuration(folder);
 			}
 
 			try {
@@ -299,6 +301,8 @@ public class LiferayTomcatServer
 			configuration = new LiferayTomcat70Configuration(folder);
 		} else if(id.endsWith("85") || id.endsWith("8562")) {
 			configuration = new LiferayTomcat85Configuration(folder);
+		} else if(id.endsWith("90") || id.endsWith("9062")) {
+			configuration = new LiferayTomcat90Configuration(folder);
 		}
 
 		if (FileUtil.exists(path)) {
